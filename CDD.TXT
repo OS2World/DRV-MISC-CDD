@@ -1,0 +1,17 @@
+
+    CDD is a tool to shell to  OS/2 before the  Presentation Manager
+    (and WorkPlace Shell) is started. When CDD is installed, you can
+    press <Esc> at the message  "Press ESC for command prompt..." to
+    invoke the shell.  If you do not press  <Esc>  OS/2 continues to
+    load after 5 seconds.
+    In this shell you  can handle several  DLL and other PM specific
+    files which you could otherwise not have access to.
+    Type 'exit' to resume booting OS/2 (or Ctrl-Alt-Del to reboot).
+    CDD just starts the default OS/2 CMD shell, CDD4 starts 4OS2.
+
+    Put in your CONFIG.SYS the line:
+      DEVICE=<path>CDD.SYS (or CDD4.SYS)
+     where <path> is the path where CDD(4).SYS resides
+
+    CDD.SYS  - shells \OS2\CMD.EXE
+    CDD4.SYS - shells \4OS2\4OS2.EXE

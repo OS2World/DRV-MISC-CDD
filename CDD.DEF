@@ -1,0 +1,9 @@
+LIBRARY CDD            ; Specifies CDD as a dynamic link modul
+
+PROTMODE               ; Runs only in protected mode
+
+SEGMENTS               ; make DATA precede CODE
+   _DATA   CLASS   'DATA'
+   CONST   CLASS   'CONST'
+   _BSS    CLASS   'BSS'
+
